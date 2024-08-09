@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.FirstActivity">
+
+    <ImageView
+        android:id="@+id/userPhoto"
+        android:src="@drawable/ic_photo"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/user" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:background="@drawable/et_rounded"
+        android:hint="@string/name"
+        android:maxLength="32"
+        android:padding="10dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="@color/grey"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etPalindrome"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:background="@drawable/et_rounded"
+        android:hint="@string/palindrome"
+        android:maxLength="32"
+        android:padding="10dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="@color/grey"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:text="@string/check"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="14sp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:text="@string/next"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

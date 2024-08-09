@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+
+    <!--first page string assets-->
+    <string name="user">User</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+
+    <!--second page string assets-->
+    <string name="welcome">Welcome</string>
+    <string name="secondScreen">Second Screen</string>
+    <string name="defaultName">John Doe</string>
+    <string name="selectedUsername">Selected User Name</string>
+    <string name="chooseUser">Choose a User</string>
+
+    <!--third page string assets-->
+    <string name="thirdScreen">Third Screen</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">EMAIL@EMAIL.COM</string>
+    <string name="nousers">No Users Available</string>
+
+</resources>
